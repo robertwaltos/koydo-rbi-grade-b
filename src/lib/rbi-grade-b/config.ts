@@ -1,0 +1,45 @@
+// RBI Grade B Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM054",
+  slug: "rbi-grade-b",
+  name: "RBI Grade B",
+  fullName: "RBI Grade B",
+  alias: "RBI Grade B",
+  family: "RBI",
+  category: "Banking recruitment",
+  subcategory: "Central bank recruitment",
+  country: "India",
+  region: "South Asia",
+  languages: ["English"],
+  estimatedAnnualTakers: "smaller elite segment",
+  testingWindow: "Jun-Aug",
+  schedulePattern: "Annual",
+  ageGroup: "21-30",
+  targetUser: "Bank job seeker",
+  delivery: "Computer-based + descriptive",
+  questionTypes: ["MCQ + essay"],
+  adaptivity: "Tiered",
+  sections: "Phase I, II",
+  scoringMode: "Cutoff",
+  essayOrSpeaking: "Essay/descriptive",
+  ipRisk: "Low",
+  contentReuse: "economics_finance_aptitude",
+  uiEngine: "objective_plus_descriptive",
+  monetizationPotential: "Medium",
+  tier: "Tier 4",
+  launchWave: "Wave 6",
+  themeColor: "#0891B2",
+  themeColorDark: "#0E7490",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: false,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
